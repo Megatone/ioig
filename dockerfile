@@ -9,7 +9,8 @@ COPY package*.json ./
 COPY tsconfig.json ./
 
 # Instala las dependencias del proyecto
-RUN npm install
+RUN npm cache clean --force
+RUN npm install --no-cache
 
 # Compila tu código TypeScript a JavaScript
 RUN npm run build
