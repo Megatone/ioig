@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/ceb19de9-bd4f-4fc0-93ac-0971fb931a0e/resourceGroups/ioig_group-9671/providers/Microsoft.Web/sites/ioig",
+    "appService.deploySubpath": "dist\\ioig"
+}
